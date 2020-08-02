@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="600.0" style="-fx-background-color: #303030;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="can" height="200.0" layoutX="200.0" layoutY="321.0" width="200.0" />
+      <ImageView fx:id="spaceship" fitHeight="84.0" fitWidth="66.0" layoutX="277.0" layoutY="607.0">
+         <image>
+            <Image url="@../Image/space.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
